@@ -1,0 +1,250 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tenkey_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2000"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/tenkey_board"
+        android:layout_width="280dp"
+        android:layout_height="320dp"
+        android:background="#8000" >
+
+        <TextView
+            android:id="@+id/tenkey_text"
+            android:layout_width="278dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:gravity="right|center_vertical"
+            android:paddingRight="8dp"
+            android:textColor="#c000"
+            android:textSize="22sp" />
+
+        <!-- row:1 -->
+
+        <Button
+            android:id="@+id/tenkey_7"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="211dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_8"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="211dp"
+            android:layout_marginLeft="71dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_9"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="211dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_backspace"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="211dp"
+            android:layout_marginLeft="211dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <!-- row:2 -->
+
+        <Button
+            android:id="@+id/tenkey_4"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="141dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_5"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="141dp"
+            android:layout_marginLeft="71dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_6"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="141dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_clear"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="141dp"
+            android:layout_marginLeft="211dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <!-- row:3 -->
+
+        <Button
+            android:id="@+id/tenkey_1"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="71dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_2"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="71dp"
+            android:layout_marginLeft="71dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_3"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="71dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_enter"
+            android:layout_width="68dp"
+            android:layout_height="138dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="211dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <!-- row:4 -->
+
+        <Button
+            android:id="@+id/tenkey_minus"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_0"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="71dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tenkey_dot"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#8fff"
+            android:textColor="#c000"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+</LinearLayout>

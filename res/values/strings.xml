@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiniTenkey</string>
+    <string name="mini_tenkey_demo">MiniTenkeyDemo</string>
+    <string name="btn_normal">Normal</string>
+    <string name="btn_hide_dot">Hide dot</string>
+    <string name="btn_hide_minus">Hide minus</string>
+    <string name="btn_custom">Custom</string>
+    <string name="text_default">0</string>
+
+</resources>
